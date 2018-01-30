@@ -37,3 +37,14 @@ We already know how 19 is represented, so lets jump straight into representing t
 
 We want to convert 19 to octal, so in order to do this we find the biggest power of 16. In this case, it's 16. Let's put a 1 in the 16 spot in the table. So now we subtract 16 from 19, and we're left with 3. Our octal representation is now `0010`. Now we subtract 3 from 3, and place a 3 in the 1 spot in the table. Our hexadecimal representation is now: `0013`. Now we are left with 0, so our hexadecimal representation is complete as `0013`.
 
+### Exercises:
+
+1. What is 75 in hexadecimal?
+2. What is 13 in hexadecimal?
+3. What is 36 in hexadecimal?
+4. What is 75 \(currently hexadecimal\) in decimal?
+5. What is 1F \(currently hexadecimal\) in decimal?
+6. What is A6 \(currently hexadecimal\) in decimal?
+
+
+
