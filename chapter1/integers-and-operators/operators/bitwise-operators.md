@@ -149,7 +149,7 @@ int f = d << e; // 144
 */
 ```
 
-If the concept of shifting by bits is confusing, you can also think of it like this: If you have something like `9 << 3`, then you can think of it like $$(9 * 2^3) \& n$$. Where $$n = 2^k - 1$$, where $$k$$ is the number of bits that make up an integer. 
+If the concept of shifting by bits is confusing, you can also think of it like this: If you have something like `9 << 3`, then you can think of it like $$(9 * 2^3) \& n$$. Where $$n = 2^k - 1$$, where $$k$$ is the number of bits that make up an integer.
 
 #### Exercises
 
@@ -162,7 +162,7 @@ If the concept of shifting by bits is confusing, you can also think of it like t
 
 ### Arithmetic Right Shift
 
-
+Arithmetic Right Shift is similar to left shift, except it shifts bits to the RIGHT, AND it keeps the sign of the integer. Lets look at some examples:
 
 
 
