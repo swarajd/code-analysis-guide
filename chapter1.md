@@ -17,7 +17,7 @@ I will be going over all ten topics in this order:
 9. Methods, Arguments, Return values, and Recursion
 10. System.out.format
 
-
+I will also have various exercises scattered throughout this book in order to help you solidify these concepts. 
 
 
 
