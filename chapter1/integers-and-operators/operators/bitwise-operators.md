@@ -19,7 +19,7 @@ Lets take a look at some 8 bit examples
 
 ```
 int a = 6;     // 6 in binary is 00000110
-int b = ~a;    // once flipped, it becomes 11111001, or -7If 
+int b = ~a;    // once flipped, it becomes 11111001, or -7If
 ```
 
 #### Exercises
@@ -33,7 +33,7 @@ int b = ~a;    // once flipped, it becomes 11111001, or -7If
 
 ### And
 
-The and operator takes two integers, and applies an AND to each of their bits, to further explain what an AND is, let me show you this diagram:
+The _and_ operator takes two integers, and applies an AND to each of their bits, to further explain what an AND is, let me show you this diagram:
 
 | first bit | second bit | result |
 | :--- | :--- | :--- |
@@ -58,7 +58,7 @@ If you're confused, look at this table:
 | 5 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 
-If you look at the first table and apply the logic to each column of this table, you'll see how I get the result of 1. 
+If you look at the first table and apply the logic to each column of this table, you'll see how I get the result of 1.
 
 #### Exercises
 
@@ -71,7 +71,7 @@ If you look at the first table and apply the logic to each column of this table,
 
 ### Or
 
-The or operator is similar to the and operator, but it follows different rules. Lets look at this diagram to see what the rules are:
+The _or_ operator is similar to the _and_ operator, but it follows different rules. Lets look at this diagram to see what the rules are:
 
 | first bit | second bit | result |
 | :--- | :--- | :--- |
@@ -97,7 +97,16 @@ int c = a | b; // if you OR each bit, you'll get 00001101, which is 13
 5. 13 & 29?
 6. 11 & 13?
 
+### Xor
 
+The _xor_ operator is similar to the _or_ operator, but it's a bit more particular. Lets look at this diagram to see what the rules are:
 
+| first bit | second bit | result |
+| :--- | :--- | :--- |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
 
+It's not immediately obvious, but the result is only 1 when ONLY 1 of the bits is set to 1. Lets look at an example of this in practice. 
 
