@@ -14,7 +14,16 @@ This table might come in handy:
 | :--- | :--- | :--- | :--- | :--- |
 | 0 | 0 | 0 | 2 | 3 |
 
-We want to convert 19 to octal, so in order to do this we find the biggest power of 8 which can fit into 19. In this case, it's 8. Lets put a 2 at the 8 spot in the table. So now we subtract 2\*8 = 16 from 19, and we're left with 3. Our octal representation is now `00020`. Now we repeat this process until we remain with 0. We have 3, and the highest power we can pack into that is 1 \* 3 = 3. Now we subtract 3 from 3, and place a 3 in the 1 spot in the table. Our octal representation is now: `00023`.Now we are left with 0, so our octal representation is complete as `00023`. 
+We want to convert 19 to octal, so in order to do this we find the biggest power of 8 which can fit into 19. In this case, it's 8. Lets put a 2 at the 8 spot in the table. So now we subtract $$8 * 2 = 16$$ from 19, and we're left with 3. Our octal representation is now `00020`. Now we repeat this process until we remain with 0. We have 3, and the highest power we can pack into that is $$1 * 3 = 3$$. Now we subtract 3 from 3, and place a 3 in the 1 spot in the table. Our octal representation is now: `00023`.Now we are left with 0, so our octal representation is complete as `00023`.
+
+### Exercises:
+
+1. What is 75 in octal?
+2. What is 13 in octal?
+3. What is 36 in octal?
+4. What is 75 \(currently octal\) in decimal?
+5. What is 13 \(currently octal\) in decimal?
+6. What is 36 \(currently octal\) in decimal?
 
 
 
