@@ -50,5 +50,13 @@ int b = 5;     // 5 in binary is 00000101
 int c = a & b; // if you AND each bit, you'll get 00000001, which is 1
 ```
 
+If you're confused, look at this table:
+
+| number | bit 1 | bit 2 | bit 3 | bit 4 | bit 5 | bit 6 | bit 7 | bit 8 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 9 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
+| 5 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+
 
 
