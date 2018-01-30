@@ -35,7 +35,7 @@ We want to convert 19 to binary, so in order to do this we find the biggest powe
 
 What does it mean for a data type \(in almost all cases a numeric data type\) to be signed? If an integer is stored in 32 bits, lets use our old example above: `11000010011011010110110111011111`.
 
-Lets concentrate our focus to integers, since we will only be dealing with integers in this section. A signed integer is an integer where the first bit decides the sign of the integer. In our integer above, our bits start off like this: `11000...` The first bit is set to 1, so we know that this is a negative number. The other 31 bits then decide what the number actually is. I won't bore you with the computational details, but our 32 bit number above actually comes out to be $$-1033015841$$.
+Lets concentrate our focus to integers, since we will only be dealing with integers in this section. A signed integer is an integer where the first bit decides the sign of the integer. In our integer above, our bits start off like this: `11000...` The first bit is set to 1, so we know that this is a negative number. If the bit is set to 0, then it's a positive number. The other 31 bits then decide what the number actually is. I won't bore you with the computational details, but our 32 bit number above actually comes out to be $$-1033015841$$.
 
 ### Exercises:
 
