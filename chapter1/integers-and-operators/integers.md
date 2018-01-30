@@ -10,9 +10,9 @@ What does it mean for a data type to have a certain number of bits? Well, lets g
 
 If you don't know what binary is, binary is how you'd represent a number using 1s and 0s. It is also known as base-2. Lets talk about how to convert binary to decimal and back.
 
-Normally, in base-10, also known as decimal, we have each digit be multiplied by a power of 10, and there are 10 digits \(0-9\). So if we have a number such as 457, it can be represented as the following: $$4*(10^2) + 5*(10^1) + 7*(10^0)$$. If you don't know what an exponent is, that's ok too, you can basically interpret the previous expression as the following: $$$$$$4*(10*10) + 5*(10) + 7*(1)$$.
+Normally, in base-10, also known as decimal, we have each digit be multiplied by a power of 10, and there are 10 digits \(0-9\). So if we have a number such as 457, it can be represented as the following: $$4*(10^2) + 5*(10^1) + 7*(10^0)$$. If you don't know what an exponent is, that's ok too, you can basically interpret the previous expression as the following:$$4*(10*10) + 5*(10) + 7*(1)$$.
 
-In base-2, we have each digit be multiplied by a power of 2, and there are only 2 digits. Lets look into how we convert a number such as 19 to binary. 19 in base-10 is represented as the following: $$1*(10^1) + 9*(10^0)$$. Lets see how we'd represent this in base-2. In base 2, the powers of 2 are the following: $$1, 2, 4, 8, 16, 32, 64, ...$$ . So in order to have a number in base-2, it would be represented as 1s and 0s multiplied by powers of 2.
+In base-2, we have each digit be multiplied by a power of 2, and there are only 2 digits. Lets look into how we convert a number such as 19 to binary. 19 in base-10 is represented as the following: $$1*(10^1) + 9*(10^0)$$. Let's see how we'd represent this in base-2. In base-2, the powers of 2 are the following: $$1, 2, 4, 8, 16, 32, 64, ...$$ . So in order to have a number in base-2, it would be represented as 1s and 0s multiplied by powers of 2.
 
 This table might come in handy:
 

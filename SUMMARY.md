@@ -8,4 +8,5 @@
       * [Unary Operators](chapter1/integers-and-operators/operators/unary-operators.md)
       * [Binary Operators](chapter1/integers-and-operators/operators/binary-operators.md)
       * [Bitwise Operators](chapter1/integers-and-operators/operators/bitwise-operators.md)
+    * [Representations](chapter1/integers-and-operators/representations.md)
 
