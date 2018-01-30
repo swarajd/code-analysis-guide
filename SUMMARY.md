@@ -5,4 +5,7 @@
   * [Integers, Operators, and Representations](chapter1/integers-and-operators.md)
     * [Integers](chapter1/integers-and-operators/integers.md)
     * [Operators](chapter1/integers-and-operators/operators.md)
+      * [Unary Operators](chapter1/integers-and-operators/operators/unary-operators.md)
+      * [Binary Operators](chapter1/integers-and-operators/operators/binary-operators.md)
+      * [Bitwise Operators](chapter1/integers-and-operators/operators/bitwise-operators.md)
 
