@@ -19,7 +19,7 @@ Lets take a look at some 8 bit examples
 
 ```
 int a = 6;     // 6 in binary is 00000110
-int b = ~a;    // once flipped, it becomes 11111001, or -7
+int b = ~a;    // once flipped, it becomes 11111001, or -7If 
 ```
 
 #### Exercises
@@ -42,7 +42,7 @@ The and operator takes two integers, and applies an AND to each of their bits, t
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-As you can see, when you apply an AND to two bits, the result will only be 1 if both bits are 1 already. Lets look at a few examples of this in practice.
+As you can see, when you apply an AND to two bits, the result will only be 1 if both bits are 1 already. Lets look at an example of this in practice.
 
 ```
 int a = 9;     // 9 in binary is 00001001 
@@ -57,6 +57,47 @@ If you're confused, look at this table:
 | 9 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | 5 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+
+If you look at the first table and apply the logic to each column of this table, you'll see how I get the result of 1. 
+
+#### Exercises
+
+1. 13 & 6?
+2. 5 & 7?
+3. 2 & 10?
+4. 25 & 19?
+5. 13 & 29?
+6. 11 & 13?
+
+### Or
+
+The or operator is similar to the and operator, but it follows different rules. Lets look at this diagram to see what the rules are:
+
+| first bit | second bit | result |
+| :--- | :--- | :--- |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
+
+As you can see, when you apply OR to two bits, the result will be 1 if at LEAST 1 of the bits is 1. Lets look at an example of this in practice.
+
+```
+int a = 9;     // 9 in binary is 00001001
+int b = 5;     // 5 in binary is 00000101
+int c = a | b; // if you OR each bit, you'll get 00001101, which is 13
+```
+
+#### Exercises
+
+1. 13 \| 6?
+2. 5 & 7?
+3. 2 & 10?
+4. 25 & 19?
+5. 13 & 29?
+6. 11 & 13?
+
+
 
 
 
