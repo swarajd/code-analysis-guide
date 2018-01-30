@@ -25,5 +25,9 @@ We want to convert 19 to octal, so in order to do this we find the biggest power
 5. What is 13 \(currently octal\) in decimal?
 6. What is 36 \(currently octal\) in decimal?
 
+### Hexadecimal
+
+In base-16, or hexadecimal, we have each digit be multiplied by a power of 16, and there are actually 15 digits: `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F`. If you want, you can think of `A` as being equal to $$ 10$$, `B` being equal to $$ 11$$, and so on. 
+
 
 
