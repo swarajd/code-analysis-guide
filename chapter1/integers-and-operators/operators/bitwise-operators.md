@@ -154,15 +154,71 @@ If the concept of shifting by bits is confusing, you can also think of it like t
 #### Exercises
 
 1. Assuming an integer only uses 8 bits, what is 205 &lt;&lt; 4?
-2. Assuming an integer only uses 8 bits, what is 232 &lt;&lt; 2?
+2. Assuming an integer only uses 8 bits, what is -232 &lt;&lt; 2?
 3. Assuming an integer only uses 8 bits, what is 16 &lt;&lt; 6?
-4. Assuming an integer only uses 8 bits, what is 2 &lt;&lt; 5?
+4. Assuming an integer only uses 8 bits, what is -2 &lt;&lt; 5?
 5. Assuming an integer only uses 8 bits, what is 7 &lt;&lt; 3?
-6. Assuming an integer only uses 8 bits, what is 9 &lt;&lt; 2?
+6. Assuming an integer only uses 8 bits, what is -9 &lt;&lt; 2?
 
 ### Arithmetic Right Shift
 
 Arithmetic Right Shift is similar to left shift, except it shifts bits to the RIGHT, AND it keeps the sign of the integer. Lets look at some examples:
+
+```
+int a = 25;     // 25 in binary is 00011001
+int b = 2;      // the number of bits to shift
+int c = a >> b; // 6
+/*
+    We shifted this number to the right by 2,
+    so we had 00011001, but now we have 00000110, which is 6
+*/
+
+int d = -15;    // -15 in binary is 11110001
+int e = 3;      // the number of bits to shift
+int f = d >> e; // -2
+/*
+    we shifted this number to the right by 3,
+    so we had 1110001, but now we have 11111110, which is -2
+    Notice how since this number was negative, the left side
+    was populated by 1s instead of 0s
+*/
+```
+
+The concept of bit shifting in this scenario might be even more confusing than left shifts, but I would say try and understand what's really going on so you can be comfortable with how this operator works. 
+
+#### Exercises
+
+1. Assuming an integer only uses 8 bits, what is 205 &gt;&gt; 4?
+2. Assuming an integer only uses 8 bits, what is -232 &gt;&gt; 2?
+3. Assuming an integer only uses 8 bits, what is 16 &gt;&gt; 6?
+4. Assuming an integer only uses 8 bits, what is -2 &gt;&gt; 5?
+5. Assuming an integer only uses 8 bits, what is 7 &gt;&gt; 3?
+6. Assuming an integer only uses 8 bits, what is -9 &gt;&gt; 2?
+
+### Logical Right Shift
+
+Logical Right Shift is exactly the same as Arithmetic Right Shift, EXCEPT for the fact that a logical right shift will always populate the left with 0s instead of 1s, regardless of sign. Lets look at a previous example, but with logical right shift instead of arithmetic right shift.
+
+```
+int d = -15;     // -15 in binary is 11110001
+int e = 3;       // the number of bits to shift
+int f = d >>> e; // 14
+/*
+    we shifted this number to the right by 3,
+    so we had 1110001, but now we have 00001110, which is 14
+    Notice how even though this number is negative, the left
+    side was populated by 0s
+*/
+```
+
+#### Exercises
+
+1. Assuming an integer only uses 8 bits, what is 205 &gt;&gt;&gt; 4?
+2. Assuming an integer only uses 8 bits, what is -232 &gt;&gt;&gt; 2?
+3. Assuming an integer only uses 8 bits, what is 16 &gt;&gt;&gt; 6?
+4. Assuming an integer only uses 8 bits, what is -2 &gt;&gt;&gt; 5?
+5. Assuming an integer only uses 8 bits, what is 7 &gt;&gt;&gt; 3?
+6. Assuming an integer only uses 8 bits, what is -9 &gt;&gt;&gt; 2?
 
 
 
