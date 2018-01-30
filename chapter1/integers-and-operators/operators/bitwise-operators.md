@@ -108,5 +108,46 @@ The _xor_ operator is similar to the _or_ operator, but it's a bit more particul
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
-It's not immediately obvious, but the result is only 1 when ONLY 1 of the bits is set to 1. Lets look at an example of this in practice. 
+It's not immediately obvious, but the result is only 1 when ONLY 1 of the bits is set to 1. Lets look at an example of this in practice.
+
+```
+int a = 9;     // 9 in binary is 00001001
+int b = 5;     // 5 in binary is 00000101
+int c = a ^ b; // if you XOR each bit, you'll get 00001100, which is 12
+```
+
+#### Exercises
+
+1. 13 ^ 6?
+2. 5 ^ 7?
+3. 2 ^ 10?
+4. 25 ^ 19?
+5. 13 ^ 29?
+6. 11 ^ 13?
+
+### Left Shift
+
+If you're not used to bitwise operators, this operator probably looks really confusing. No, this doesn't mean MUCH greater than, it means you shift the bits of a number by a certain amount. Lets look at some examples:
+
+```
+int a = 9;      // 9 in binary is 00001001
+int b = 2;      // the number of bits to shift
+int c = a << b; // 36
+/*
+    What we're doing here is shifting the bits to the LEFT by two bits.
+    On the right end, we place 0s for every bit we shift to the left, and chop
+    off the same number of bits on the left.
+    So we had 00001001, but now we have 00100100, which is 36
+*/
+
+int d = 150;    // 150 in binary is 10010110
+int e = 3;      // the number of bits to shift
+int f = d << e; // 144
+/*
+    we shifted this number to the left by 3,
+    so we had 10010010, but now we have 10010000, which is 144
+*/
+```
+
+If the concept of shifting by bits is confusing, you can also think of it like this: If you have something like `9 << 3`, then you can think of it like $$9 * 2^3$$.
 
