@@ -52,3 +52,5 @@ The description also mentioned "two's complement," and that baiscally indicates 
 5. Assuming the number is signed and uses 8 bits, what is `11010001` in decimal?
 6. Assuming the number is signed and uses 16 bits, what is `1010100101011010`in decimal?
 
+
+
