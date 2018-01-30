@@ -6,7 +6,7 @@ The event parameters are self explanatory, but pay careful attention to section 
 
 I will be going over all ten topics in this order:
 
-1. Integers and operators
+1. Integers, Operators, and Representations
 2. Characters
 3. Boolean values, Operator Precedence, and Associativity
 4. Arrays
@@ -17,7 +17,5 @@ I will be going over all ten topics in this order:
 9. Methods, Arguments, Return values, and Recursion
 10. System.out.format
 
-I will also have various exercises scattered throughout this book in order to help you solidify these concepts. 
-
-
+I will also have various exercises scattered throughout this book in order to help you solidify these concepts.
 
