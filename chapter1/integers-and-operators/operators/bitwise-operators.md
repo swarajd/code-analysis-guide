@@ -149,5 +149,20 @@ int f = d << e; // 144
 */
 ```
 
-If the concept of shifting by bits is confusing, you can also think of it like this: If you have something like `9 << 3`, then you can think of it like $$9 * 2^3$$.
+If the concept of shifting by bits is confusing, you can also think of it like this: If you have something like `9 << 3`, then you can think of it like $$(9 * 2^3) \& n$$. Where $$n = 2^k - 1$$, where $$k$$ is the number of bits that make up an integer. 
+
+#### Exercises
+
+1. Assuming an integer only uses 8 bits, what is 205 &lt;&lt; 4?
+2. Assuming an integer only uses 8 bits, what is 232 &lt;&lt; 2?
+3. Assuming an integer only uses 8 bits, what is 16 &lt;&lt; 6?
+4. Assuming an integer only uses 8 bits, what is 2 &lt;&lt; 5?
+5. Assuming an integer only uses 8 bits, what is 7 &lt;&lt; 3?
+6. Assuming an integer only uses 8 bits, what is 9 &lt;&lt; 2?
+
+### Arithmetic Right Shift
+
+
+
+
 
