@@ -20,7 +20,7 @@ char a = (char)32;         // the ' ' character (space)
 char b = (char)76;         // the 'L' character 
 char c = (char)0x4D;       // the 'M' character
 char d = (char)0101;       // the 'A' character
-char e = (char)0b1001111;  // the 'O' character
+char e = (char)0b1001111;  // the 'O' characte
 ```
 
 ### Escape Sequences
@@ -35,5 +35,11 @@ char doubquote = '\"';  // This will be printed like this: "
 
 ### Character arithmetic
 
-The rules also say you can perform character arithmetic, but only in the range from `'0'` to `'9'` 
+The rules also say you can perform character arithmetic, but only if the result is in the range from `'0'` to `'9'` , or from `'A'` to `'Z'` , or from `'a'` to `'z'` .  Lets look into some examples of character arithmetic:
+
+    char cd    = 'c' + 'd' - '`'; // The resulting character is 'g'
+    char char7 = '3' + '4' - '0'; // The resulting character is '7'
+    char CD    = 'C' + 'D' - '@'; // The resulting character is 'G'
+
+The way this arithmetic works is `char` s are basically 8 bit integers, and it does the arithmetic on the integer values and 'converts' it back to a character. 
 
