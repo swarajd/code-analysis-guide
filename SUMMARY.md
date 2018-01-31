@@ -12,4 +12,5 @@
   * [Characters](chapter1/characters.md)
   * [Boolean values, Operator Precedence, and Associativity](chapter1/boolean-values-operator-precedence-and-associativity.md)
     * [Boolean Values](chapter1/boolean-values-operator-precedence-and-associativity/boolean-values.md)
+    * [Operator Precedence and Associativity](chapter1/boolean-values-operator-precedence-and-associativity/operator-precedence.md)
 
