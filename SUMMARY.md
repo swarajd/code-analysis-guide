@@ -10,4 +10,6 @@
       * [Bitwise Operators](chapter1/integers-and-operators/operators/bitwise-operators.md)
     * [Representations](chapter1/integers-and-operators/representations.md)
   * [Characters](chapter1/characters.md)
+  * [Boolean values, Operator Precedence, and Associativity](chapter1/boolean-values-operator-precedence-and-associativity.md)
+    * [Boolean Values](chapter1/boolean-values-operator-precedence-and-associativity/boolean-values.md)
 
