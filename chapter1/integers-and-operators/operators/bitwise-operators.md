@@ -184,7 +184,7 @@ int f = d >> e; // -2
 */
 ```
 
-The concept of bit shifting in this scenario might be even more confusing than left shifts, but I would say try and understand what's really going on so you can be comfortable with how this operator works. 
+The concept of bit shifting in this scenario might be even more confusing than left shifts, but I would say try and understand what's really going on so you can be comfortable with how this operator works.
 
 #### Exercises
 

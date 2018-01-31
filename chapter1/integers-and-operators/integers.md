@@ -41,6 +41,8 @@ Keep in mind that if you have an 8 bit signed integer as such: `10000000`, then 
 
 If you want to find the negative representation of an integer, the method is as follows. You take your number of bits, so lets say we have 8 bits. Then we have $$2^{8} = 256$$. Next, we take our negative number, lets say we use $$109$$. Now we subtract it from $$256$$, and simply write the binary representation of the difference. In our case, the differnce is $$147$$, and the binary representation of that is `10010011` .
 
+> "two's complement"
+
 The description also mentioned "two's complement," and that baiscally indicates another method of calculating a negative number. If lets say we have 109, which has the binary representation of `01101101`, then in order to get the negative represntation, we can flip all the bits, to get `10010010`, and then add 1 to this number, making the final representation `10010011`.
 
 ### Exercises:
