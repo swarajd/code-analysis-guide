@@ -91,7 +91,7 @@ Notice how this operator is similar to the bitwise and back in the binary operat
 | true | false | true |
 | true | true | false |
 
-Note: this seems like it's equivalent to `!=` , but for boolean values you should use `!=` as it's much clearer. However, be prepared for either use in the actual event. 
+Note: this seems like it's equivalent to `!=` , but for boolean values you should use `!=` as it's much clearer. However, be prepared for either use in the actual event.
 
 #### Exercises
 
@@ -99,7 +99,7 @@ Note: this seems like it's equivalent to `!=` , but for boolean values you shoul
 2. What is the result of `false != false` ?
 3. What is the result of `false || true` ?
 4. What is the result of `true ^ false` ?
-5. What is the result of `false && false ` ?
+5. What is the result of `false && false` ?
 6. What is the result of `9 >= 8` ?
 7. What is the result of `2 < 5` ?
 8. What is the result of `7 <= 7` ?
@@ -120,6 +120,11 @@ boolean c = false ? true : false; // false;
 1. What is the result of `true ? 7 : 6` ?
 2. What is the result of `false ? 'a' : 'b'` ?
 3. What is the result of `false ? false : true` ?
+4. What is the result of `true ? false : true` ?
+5. What is the result of `false ? 0 : 1` ?
+6. What is the result of `true ? 35 : 53` ?
 
- 
+
+
+
 
