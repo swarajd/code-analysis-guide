@@ -164,8 +164,40 @@ boolean f = a.equals(c); // true
 This method actually has two ways of being used: `boolean startsWith(String str)`, and `boolean startsWith(String str, index fromIndex)`. The first way simply checks if a string starts with `str`, and the second way checks if a string starts with `str` _from a specified index in the original string_. Let's see how this method is used below:
 
 ```
+String str1 = "Code Analysis is great";
+String str2 = "Code";
+
+boolean a = str1.startsWith(str2);    // true
+
+String str3 = "This is a string";
+String str4 = "is";
+
+boolean b = str3.startsWith(str4, 5); // true
+```
+
+#### Exercises
+
+1. What is the result of `"the quick brown fox".startsWith("the")` ?
+2. What is the result of `"the quick brown fox".startsWith("brown", 4)` ?
+3. What is the result of `"the lazy dog".startsWith("dog", 9)` ?
+
+### endsWith
+
+This method is very similar to startsWith, except it only has one way of being used: `boolean endsWith(String str)` . This method checks if a string ends with `str` . Let's see how this method is used below:
 
 ```
+String str1 = "Code Analysis is great";
+String str2 = "great";
+
+boolean a = str1.endsWith(str2); // true
+
+String str3 = "Code Analysis is awful";
+String str4 = "amazing";
+
+boolean b = str3.endsWith(str4); // false
+```
+
+
 
 
 
