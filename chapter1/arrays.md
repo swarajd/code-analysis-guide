@@ -35,13 +35,13 @@ Arrays don't necessarily have to have 1 dimension, either. You can create a 2-di
 int[][] twodim = new int[3][4]; // this array has 3 'rows' and 4 'columns'
 /*
     the above array is structures like this:
-    
+
     {
         {0, 0, 0, 0},
         {0, 0, 0, 0}
         {0, 0, 0, 0}
     }
-    
+
     Notice how this is an array of arrays. There are 3 arrays of length 4, hence "new int[3][4]"
     To remember it easier, think of it like "new int[rows][cols]"
 */
@@ -98,7 +98,6 @@ arr[2][2] = 1;
     {__, __, __},
     {__, __, __}
 }
-
 ```
 
 
