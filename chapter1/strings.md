@@ -86,5 +86,39 @@ As you can see in the code block, we use `getChars` on str1, and our starting in
 str2 = {'A', 'n', 'a', 'l', 'y', 's', 'i', 's'};
 ```
 
+#### Exercises
+
+For these exercises, I will give them in code blocks
+
+```
+// 1.
+String str1 = "Code Analysis!";
+char[] str2 = new char[4];
+
+str1.getChars(0,4,str2,0);
+
+// What is the value of str2: {_, _, _, _} ?
+```
+
+```
+// 2.
+String str1 = "Does anyone remember CodeBusters 2014?";
+char[] str2 = new char[8];
+
+str1.getChars(21,25,str2,0);
+
+// What is the value of str2: {_, _, _, _, _, _, _, _} ?
+```
+
+```
+// 3.
+String str1 = "The States test will be really hard";
+char[] str2 = new char[8];
+
+str1.getChars(11,15,str2,4);
+
+// What is the value of str2: {_, _, _, _, _, _, _, _} ?
+```
+
 
 
