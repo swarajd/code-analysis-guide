@@ -1,4 +1,4 @@
-# Strings
+Strings
 
 In java, Strings are a sequence of characters. You might have noticed that in Java, a string is not a primitive data type,  and is initialized using the `String` class. You'll also notice that in the rules,  you must know the following methods: `length, charAt, getChars, equals, equalsIgnoreCase, startsWith, endsWith, indexOf, lastIndexOf, substring, and concat`. You will also need to know string concatenation using the `+`  operator. I will be going over each method in detail.
 
@@ -196,6 +196,14 @@ String str4 = "amazing";
 
 boolean b = str3.endsWith(str4); // false
 ```
+
+#### Exercises
+
+1. What is the result of `"the quick brown fox".endsWith("the")` ?
+2. What is the result of `"the quick brown fox".endsWith("fox")` ? 
+3. What is the result of `"rats live on no evil star".endsWith("star")` ?
+
+### indexOf
 
 
 
