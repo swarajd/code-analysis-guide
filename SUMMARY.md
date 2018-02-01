@@ -17,4 +17,6 @@
   * [Strings](chapter1/strings.md)
   * [Variable scope](chapter1/variable-scope.md)
   * [Assignments, Increments, and Decrements](chapter1/assignments.md)
+  * [Blocks, Control Flow, Loops](chapter1/code-blocks-control-flow-loops.md)
+    * [Blocks](chapter1/code-blocks-control-flow-loops/code-blocks.md)
 
