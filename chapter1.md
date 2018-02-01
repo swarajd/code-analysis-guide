@@ -12,7 +12,7 @@ I will be going over all ten topics in this order:
 4. Arrays
 5. Strings
 6. Variable scope
-7. Assignments
+7. Assignments, Increments, and Decrements
 8. Code Blocks
 9. Methods, Arguments, Return values, and Recursion
 10. System.out.format

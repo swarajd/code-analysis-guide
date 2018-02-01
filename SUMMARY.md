@@ -16,4 +16,5 @@
   * [Arrays](chapter1/arrays.md)
   * [Strings](chapter1/strings.md)
   * [Variable scope](chapter1/variable-scope.md)
+  * [Assignments, Increments, and Decrements](chapter1/assignments.md)
 
