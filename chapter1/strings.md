@@ -161,15 +161,11 @@ boolean f = a.equals(c); // true
 
 ### startsWith
 
-This method actually has two ways of being used: `boolean startsWith(String str)`, and `boolean startsWith(String str, index fromIndex)`. The first way simply checks if a string starts with `str`, and the second way checks if a string starts with `str` _from a specified index in the original string_. 
+This method actually has two ways of being used: `boolean startsWith(String str)`, and `boolean startsWith(String str, index fromIndex)`. The first way simply checks if a string starts with `str`, and the second way checks if a string starts with `str` _from a specified index in the original string_. Let's see how this method is used below:
 
+```
 
-
-
-
-
-
-
+```
 
 
 
