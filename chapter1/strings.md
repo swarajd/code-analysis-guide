@@ -205,6 +205,23 @@ boolean b = str3.endsWith(str4); // false
 
 ### indexOf
 
+The `indexOf` method searches a string `str` from left to right for the given string `target` if you run it as such: `str.indexOf(target)` . Keep in mind that if it doesn't find the string, it returns `-1` . Let's look at an example of this below:
+
+```
+String str = "Here there everywhere";
+
+int a = str.indexOf("there"); // 5
+int b = str.indexOf("er");    // 1
+int c = str.indexOf("eR");    // -1
+
+```
+
+#### Exercises
+
+1. What is the result of `"this is a regular string".indexOf("is")` ?
+2. What is the result of `"this is a regular string".indexOf("regular")` ?
+3. What is the result of `"how do you do".indexOf("o")` ?
+
 
 
 
