@@ -89,10 +89,53 @@ Increments are used if you want to shorten the process of incrementing an intege
 ```
 int a = 6;
 a++; // a == 7
-++a; // a == 8
+
+a = 6;
+++a; // a == 7
 ```
 
 #### Exercises
+
+```
+// 1. 
+int a = 10;
+a++;
+
+// What is 'a' now: ___ ?
+
+
+
+
+// 2.
+int a = 7;
+++a;
+
+// What is 'a' now: ___ ?
+```
+
+### Decrements
+
+Decrements are literally the same as increments, except they use `--` and they decrease the integer \(or any numeric value\) by 1. Here are some exercises.
+
+#### Exercises
+
+```
+// 1. 
+int a = 5;
+a--;
+
+// What is 'a' now: ___ ?
+
+
+
+// 2.
+int a = 11;
+--a; 
+
+// What is 'a' now: ___ ?
+```
+
+
 
 
 
