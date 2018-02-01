@@ -25,6 +25,12 @@ String b = "";
 int b_length = b.length(); // 0
 ```
 
+#### Exercises
+
+1. What is the result of `"hello world".length()` ?
+2. What is the result of `"this is a str".length()` ?
+3. What is the result of `"coding".length()` ?
+
 ### charAt
 
 This method gets the character at a certain index of a string. Let's see it's usage below:
@@ -36,6 +42,12 @@ char c   = a.charAt(6); // 'n'
 ```
 
 Note that this method doesn't work at all on an empty string.
+
+#### Exercises
+
+1. What is the result of `"hello world".charAt(6)` ?
+2. What is the result of `"this is a str".charAt(11)` ?
+3. What is the result of `"coding".charAt(3)` ?
 
 ### getChars
 
@@ -52,8 +64,6 @@ public void getChars(int srcBegin, int srcEnd, char[] dst,  int dstBegin)
 `dst` is the character array you copy the characters to, aka the destination array
 
 `dstBegin` is the start offset in the destination array \(i.e. the index where you begin copying the characters\)
-
-
 
 This method is probably one of the most confusing methods to figure out, so I'll go through some examples to make things clear.
 
