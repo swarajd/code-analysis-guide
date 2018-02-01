@@ -267,7 +267,7 @@ String pigstr = str.substring(26);        // "pig"
 
 ### concat
 
-The `concat` method in java takes two strings, and sticks them together, or "concatenates" them. It works like this: `String concat(str)` . Let's look at some examples below:
+The `concat` method in java takes two strings, and sticks them together, or "concatenates" them. It works like this: `String concat(str)` . Note: the `+` operator with strings does EXACTLY the same thing as `concat` for our purposes. There are a few gotchas I'll go over at the end of the lesson. Let's look at some examples below:
 
 ```
 String leftHandSide = "this is ";
@@ -276,15 +276,21 @@ String rightHandSide = "a string";
 String combined = leftHandSide.concat(rightHandSide); // "this is a string"
 ```
 
+Here are the main differences of `+` and `concat` :
+
+```
+null + "some string"       // "nullsome string"
+null.concat("some string") // NullPointerException
+```
+
 #### Exercises
 
 1. What is the result of `"cat".concat("con")` ?
 2. What is the result of `"Virginia".concat("Tech")` ?
 3. What is the result of `"how do you".concat(" concatenate strings")` ?
-
-
-
-
+4. What is the result of `"how do" + " you do"` ? 
+5. What is the result of `"+" + "+"` ?
+6. What is the result of `"this is " + "a string"` ?
 
 
 
