@@ -15,4 +15,5 @@
     * [Operator Precedence and Associativity](chapter1/boolean-values-operator-precedence-and-associativity/operator-precedence.md)
   * [Arrays](chapter1/arrays.md)
   * [Strings](chapter1/strings.md)
+  * [Variable scope](chapter1/variable-scope.md)
 
