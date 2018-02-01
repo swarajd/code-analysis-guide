@@ -231,7 +231,7 @@ int b = str.indexOf("that", 22); // 26
 
 ### lastIndexOf
 
-The `lastIndexOf` method is similar to the `indexOf` method, except it returns the _last_ instance of what you're looking for. It also has functionality where you can start searching _backward _from a given index. This method also returns `-1` when it doesn't find the string. Let's look at how it's used below:
+The `lastIndexOf` method is similar to the `indexOf` method, except it returns the _last_ instance of what you're looking for. It also has functionality where you can start searching \_backward \_from a given index. This method also returns `-1` when it doesn't find the string. Let's look at how it's used below:
 
 ```
 String str = "this is this, and that is that";
@@ -278,6 +278,13 @@ String combined = leftHandSide.concat(rightHandSide); // "this is a string"
 
 #### Exercises
 
-1. 
+1. What is the result of `"cat".concat("con")` ?
+2. What is the result of `"Virginia".concat("Tech")` ?
+3. What is the result of `"how do you".concat(" concatenate strings")` ?
+
+
+
+
+
 
 
