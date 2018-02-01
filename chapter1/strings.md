@@ -120,5 +120,56 @@ str1.getChars(11,15,str2,4);
 // What is the value of str2: {_, _, _, _, _, _, _, _} ?
 ```
 
+### equals
+
+This method checks if two strings are equal. Let's see it's usage below:
+
+```
+String a = "this";
+String b = "that";
+String c = "this";
+
+boolean d = a.equals(b); // false
+boolean e = a.equals(c); // true
+```
+
+#### Exercises
+
+1. What is the result of `"hey".equals("hello")` ?
+2. What is the result of `"what".equals("what")` ?
+3. What is the result of `"this is tedious".equals("This is tedious")`?
+
+### equalsIgnoresCase
+
+This method checks if two strings are equal, BUT it ignores case. Let's see it's usage below:
+
+```
+String a = "this";
+String b = "This";
+String c = "THIS";
+String d = "that";
+
+boolean e = a.equals(b); // true
+boolean f = a.equals(c); // true
+```
+
+#### Exercises
+
+1. What is the result of `"what".equals("whAt")` ?
+2. What is the result of `"this".equals("th1s")` ?
+3. What is the result of `"whoa".equals("WHOA")` ?
+
+### startsWith
+
+This method actually has two ways of being used: `boolean startsWith(String str)`, and `boolean startsWith(String str, index fromIndex)`. The first way simply checks if a string starts with `str`, and the second way checks if a string starts with `str` _from a specified index in the original string_. 
+
+
+
+
+
+
+
+
+
 
 
