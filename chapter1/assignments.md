@@ -82,6 +82,20 @@ six >>>= 25
 // what is the value of 'six': ____ ?
 ```
 
+### Increments
+
+Increments are used if you want to shorten the process of incrementing an integer \(or any numeric value\) by 1. They can be used in two ways: pre-increment `++a` or post-increment `a++` . For this event, order does not matter at all. Let's see how this operator is used.
+
+```
+int a = 6;
+a++; // a == 7
+++a; // a == 8
+```
+
+#### Exercises
+
+
+
 
 
 
