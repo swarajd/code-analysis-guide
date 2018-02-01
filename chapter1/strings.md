@@ -213,16 +213,71 @@ String str = "Here there everywhere";
 int a = str.indexOf("there"); // 5
 int b = str.indexOf("er");    // 1
 int c = str.indexOf("eR");    // -1
+```
 
+The `indexOf` method also has behavior similar to `startsWith`, in that you can provide an index as the second argument, and it will start searching the string from that index. The method definition looks like this: `int indexOf(String str, int index)` . Let's look at an example of this below:
+
+```
+String str = "this is this, and that is that";
+int a = str.indexOf("this", 4);  // 8
+int b = str.indexOf("that", 22); // 26
 ```
 
 #### Exercises
 
 1. What is the result of `"this is a regular string".indexOf("is")` ?
 2. What is the result of `"this is a regular string".indexOf("regular")` ?
-3. What is the result of `"how do you do".indexOf("o")` ?
+3. What is the result of `"how do you do".indexOf("o", 6)` ?
 
+### lastIndexOf
 
+The `lastIndexOf` method is similar to the `indexOf` method, except it returns the _last_ instance of what you're looking for. It also has functionality where you can start searching _backward _from a given index. This method also returns `-1` when it doesn't find the string. Let's look at how it's used below:
 
+```
+String str = "this is this, and that is that";
+
+int a = str.lastIndexOf("this");    // 8
+int b = str.lastIndexOf("this", 4); // 0
+int c = str.lastIndexOf("these");   // -1
+```
+
+#### Exercises
+
+1. What is the result of `"this is the last".lastIndexOf("s")` ?
+2. What is the result of `"this is the last".lastIndexOf("t", 8)` ?
+3. What is the result of `"how now brown cow".lastIndexOf("ow")` ?
+
+### substring
+
+The `substring` method in java has two ways to use it: `String substring(int beginIndex)` and `String substring(int beginIndex, int endIndex)` . The first way takes the string from the beginning index all the way to the end of the string. The second way takes the string from the beginning index to the character _before_ the end index.  Let's look at how it's used below:
+
+```
+String str = "horsecatdogpigeonliontigerpig";
+
+String catstr = str.substring(5, 8);      // "cat"
+String pigeonstr = str.substring(12, 17); // "pigeon"
+String pigstr = str.substring(26);        // "pig"
+```
+
+#### Exercises
+
+1. What is the result of `"this is a regular string".substring(10)` ?
+2. What is the result of `"this is a special string".substring(10, 17)` ?
+3. What is the result of `"this is a boring string".substring(0, 4)` ?
+
+### concat
+
+The `concat` method in java takes two strings, and sticks them together, or "concatenates" them. It works like this: `String concat(str)` . Let's look at some examples below:
+
+```
+String leftHandSide = "this is ";
+String rightHandSide = "a string";
+
+String combined = leftHandSide.concat(rightHandSide); // "this is a string"
+```
+
+#### Exercises
+
+1. 
 
 
