@@ -21,4 +21,5 @@
     * [Blocks](chapter1/code-blocks-control-flow-loops/code-blocks.md)
     * [Control Flow](chapter1/code-blocks-control-flow-loops/control-flow.md)
     * [Loops](chapter1/code-blocks-control-flow-loops/loops.md)
+    * Comments
 
