@@ -28,7 +28,26 @@ if (d == 3) {
 }
 
 // c == 0
+
+
+
+/// Ex 3.
+
+int e = 4;
+int f = 3;
+int g = 1;
+
+if (f == 9) {
+    g = 10;
+} else if (f == 3) {
+    g = 11;
+} else {
+    g = 12;   
+}
+
+// g == 11
+
 ```
 
-
+The way an if-statement works, is that inside the parentheses, you place an expression that evaluates to a boolean value. It's relatively simple to understand, as you basically check if the expression evaluates to true, and if it does, you execute the code inside that if-block, otherwise you either move on to the else-if or else block \(if there is one\), or move on with the rest of the code. 
 
