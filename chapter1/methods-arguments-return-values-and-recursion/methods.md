@@ -48,7 +48,6 @@ char[] getCharArray(String str) {
 } 
 
 char[] charArr = getCharArray("coding") // charArr == {'c', 'o', 'd', 'i', 'n', 'g'}
-
 ```
 
 
