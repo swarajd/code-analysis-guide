@@ -13,7 +13,7 @@ This is how a standard while loop looks:
 
 ![](/assets/while.png)
 
-\(source: https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html\)
+\(source: [https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html\](https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html\)\)
 
 Here's an example of a while loop in practice:
 
@@ -49,7 +49,7 @@ while (a <= 15) {
 int a = 10;
 int b = 1;
 
-while (a > 0) {
+while (a < 0) {
     b *= 2;
     a--;
 }
@@ -73,7 +73,43 @@ while (a < 10 || b < 15) {
 // what is the value of 'a': ___ ?
 ```
 
+### For loops
 
+This is how a standard for loop looks:
+
+![](/assets/forloop.png)
+
+\(source: https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html\)
+
+Here is an example of a for loop in practice:
+
+```
+// For(<initialization>;<condition>;<increment>
+for(int counter = 1; counter <= 10; counter++){
+   System.out.println(counter);
+}
+
+// There are variations as well
+
+int counter;
+for( counter = 1; counter <= 10; counter++){
+   //... Statements
+}
+
+int counter = 1;
+for(; counter <= 10; counter++){
+   //... Statements
+}
+
+int counter = 1;
+for(; counter <= 10;){
+   //... Statements
+   counter++;
+}
+
+// Infinite loop
+for(;true;);
+```
 
 
 
