@@ -22,4 +22,7 @@
     * [Control Flow](chapter1/code-blocks-control-flow-loops/control-flow.md)
     * [Loops](chapter1/code-blocks-control-flow-loops/loops.md)
     * [Comments](chapter1/code-blocks-control-flow-loops/comments.md)
+  * [Methods, Arguments, Return values, and Recursion](chapter1/methods-arguments-return-values-and-recursion.md)
+    * [Methods](chapter1/methods-arguments-return-values-and-recursion/methods.md)
+    * [Recursion](chapter1/methods-arguments-return-values-and-recursion/recursion.md)
 
