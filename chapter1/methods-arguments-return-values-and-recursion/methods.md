@@ -4,7 +4,7 @@ In java, a method is a _named_ set of code that can be called \(invoked\) at any
 
 Each method has it's own name. When that name is encountered in a program, the execution of the program branches to the body of that method. When the method is finished, execution returns to the area of the program code from which it was called, and the program continues on to the next line of code.
 
-\(source: [https://mathbits.com/MathBits/Java/Methods/Lesson1.htm\](https://mathbits.com/MathBits/Java/Methods/Lesson1.htm\)\).
+\(source: [https://mathbits.com/MathBits/Java/Methods/Lesson1.htm\](https://mathbits.com/MathBits/Java/Methods/Lesson1.htm%29\).
 
 Let's look at some examples of methods:
 
@@ -32,6 +32,23 @@ String greetPerson(String prefix, String, lastName) {
 }
 
 String greeting = greetPerson("Mr.", "Dhumne"); // greeting.equals("Hello, Mr. Dhumne")
+
+/*
+    this method
+    - returns a character array
+    - takes one parameter
+*/
+char[] getCharArray(String str) {
+    int len = str.length();
+    char[] ret = new char[len];
+    for (int i = 0; i < len; i++) {
+        ret[i] = str.charAt(i);
+    }
+    return ret;
+} 
+
+char[] charArr = getCharArray("coding") // charArr == {'c', 'o', 'd', 'i', 'n', 'g'}
+
 ```
 
 
