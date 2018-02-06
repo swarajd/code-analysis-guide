@@ -1,4 +1,4 @@
-Strings
+# Strings
 
 In java, Strings are a sequence of characters. You might have noticed that in Java, a string is not a primitive data type,  and is initialized using the `String` class. You'll also notice that in the rules,  you must know the following methods: `length, charAt, getChars, equals, equalsIgnoreCase, startsWith, endsWith, indexOf, lastIndexOf, substring, and concat`. You will also need to know string concatenation using the `+`  operator. I will be going over each method in detail.
 
