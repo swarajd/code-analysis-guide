@@ -13,7 +13,7 @@ This is how a standard while loop looks:
 
 ![](/assets/while.png)
 
-\(source: [https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html\](https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html\)\)
+\(source: [https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html\](https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html%29\)
 
 Here's an example of a while loop in practice:
 
@@ -25,6 +25,10 @@ while (counter <= 10) {
    System.out.println(counter);
    counter++;     // Increment the control variable
 }
+
+/*
+   At the end of this loop, counter == 11, and the statements will have executed 10 times. 
+*/
 ```
 
 #### Exercises
@@ -75,11 +79,11 @@ while (a < 10 || b < 15) {
 
 ### For loops
 
-This is how a standard for loop looks:
+For loops are very similar to while loops except they have different initialization techniques. This is how a standard for loop looks:
 
 ![](/assets/forloop.png)
 
-\(source: https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html\)
+\(source: [https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html\](https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html\)\)
 
 Here is an example of a for loop in practice:
 
@@ -109,6 +113,43 @@ for(; counter <= 10;){
 
 // Infinite loop
 for(;true;);
+```
+
+Note: The condition check happens **before** the statements in the loop are executed. In addition, the increment statement happens **after** all the statements, a fact that many may overlook.
+
+#### Exercises
+
+```
+// 1.
+
+int a = 0;
+for(int i = 0; i < 10; i++) {
+    a += 10;
+}
+
+// what is the value of 'a': ___ ?
+
+
+
+
+// 2.
+
+int b = 0;
+for (b = 1; b < 20; b++) {
+    b = b + b;
+}
+
+// what is the value of 'b': ___ ?
+
+
+
+// 3.
+int c = 7;
+for (; c > 15; c++) {
+    c++;
+}
+
+// what is the value of 'c': ___ ?
 ```
 
 
