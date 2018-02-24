@@ -14,7 +14,7 @@ int factorial(int n) {
 }
 ```
 
-Aa you can see, this function calls itself inside the `else` statement. Let's look at how this code would execute. 
+Aa you can see, this function calls itself inside the `else` statement. Let's look at how this code would execute.
 
 ```
 int a = factorial(5);
@@ -35,7 +35,7 @@ int a = 5 * 4 * 3 * 2 * factorial(1);
 int a = 5 * 4 * 3 * 2 * 1; // a == 120
 ```
 
- That example was fairly linear, so lets look at a different example of recursion using the fibonacci sequence:
+That example was fairly linear, so lets look at a different example of recursion using the fibonacci sequence:
 
 ```
 int fib(n) {
@@ -68,47 +68,106 @@ int b = fib(6) + fib(5);
 /*
 fib7
 ├── fib5
-│   ├── fib3
-│   │   ├── fib1
-│   │   │   └── 1
-│   │   └── fib2
-│   │       └── 1
-│   └── fib4
-│       ├── fib2
-│       │   └── 1
-│       └── fib3
-│           ├── fib1
-│           │   └── 1
-│           └── fib2
-│               └── 1
+│   ├── fib3
+│   │   ├── fib1
+│   │   │   └── 1
+│   │   └── fib2
+│   │       └── 1
+│   └── fib4
+│       ├── fib2
+│       │   └── 1
+│       └── fib3
+│           ├── fib1
+│           │   └── 1
+│           └── fib2
+│               └── 1
 └── fib6
     ├── fib4
-    │   ├── fib2
-    │   │   └── 1
-    │   └── fib3
-    │       ├── fib1
-    │       │   └── 1
-    │       └── fib2
-    │           └── 1
+    │   ├── fib2
+    │   │   └── 1
+    │   └── fib3
+    │       ├── fib1
+    │       │   └── 1
+    │       └── fib2
+    │           └── 1
     └── fib5
         ├── fib3
-        │   ├── fib1
-        │   │   └── 1
-        │   └── fib2
-        │       └── 1
+        │   ├── fib1
+        │   │   └── 1
+        │   └── fib2
+        │       └── 1
         └── fib4
             ├── fib2
-            │   └── 1
+            │   └── 1
             └── fib3
                 ├── fib1
-                │   └── 1
+                │   └── 1
                 └── fib2
                     └── 1
-                    
+
 Now essentially what you'll do is take all the final values of 1 and add them all up.
 If we manually do fibonacci, we'll see that we get the sequence: 1 1 2 3 5 8 13. 13 is the 7th number.
 If we add up all the ones, we'll see we have 13 ones, which is also the 7th number. 
 */
+```
+
+### Exercises
+
+```
+// 1.
+
+void collatz(int n) {
+    System.out.println(n);
+    if (n == 1) {
+        return;
+    } else if (n % 2 == 0) {
+        collatz(n / 2);
+    } else {
+        collatz(n * 3 + 1);
+    }
+}
+
+// What does collatz(10) print: _______________ ?
+
+
+
+// 2.
+
+void countdown(int i) {
+    if (i <= 0) {
+        System.out.println("blastoff!");
+    } else {
+        System.out.println(i);
+        countdown(i - 1);
+    }
+}
+
+// What does countdown(7) print:
+------
+
+
+
+
+
+
+
+------
+
+
+
+
+// 3.
+
+int power(int x, int n) {
+    if (n > 1) {
+        return x * power(x, n - 1);
+    } else {
+        return x;
+    }
+}
+
+// What does power(3, 4) return: ____ ?
+
 ```
 
 
