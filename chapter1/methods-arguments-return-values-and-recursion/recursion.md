@@ -14,7 +14,102 @@ int factorial(int n) {
 }
 ```
 
-Aa you can see, this function calls itself inside the `else` statement. 
+Aa you can see, this function calls itself inside the `else` statement. Let's look at how this code would execute. 
+
+```
+int a = factorial(5);
+
+/*
+    when we first call it, we can see that n = 5, and that n is greater than 0 and it's not 1, 
+    so it goes to the else statement.
+*/
+
+int a = 5 * factorial(4);
+
+/*
+    this basically repeats until n == 1
+*/
+int a = 5 * 4 * factorial(3);
+int a = 5 * 4 * 3 * factorial(2);
+int a = 5 * 4 * 3 * 2 * factorial(1);
+int a = 5 * 4 * 3 * 2 * 1; // a == 120
+```
+
+ That example was fairly linear, so lets look at a different example of recursion using the fibonacci sequence:
+
+```
+int fib(n) {
+    if (n < 1) {
+        return -1;
+    } if (n == 1 || n == 2) {
+        return 1;
+    } else {
+        return fib(n - 1) + fib(n - 2);
+    }
+}
+```
+
+This function is a bit more complex, since the `else` statement calls `fib` _twice_. Let's step through this code and see what happens.
+
+```
+int b = fib(7);
+
+/*
+    we know b isn't less than 1, and it's not 1 or 2, so we go to the else
+*/
+
+int b = fib(6) + fib(5);
+
+/* 
+    now you'll notice that there are two calls to fib, so you have to take care of two recursive calls at
+    the same time. I'll model this in a tree to hopefully make it easier to read
+*/ 
+
+/*
+fib7
+├── fib5
+│   ├── fib3
+│   │   ├── fib1
+│   │   │   └── 1
+│   │   └── fib2
+│   │       └── 1
+│   └── fib4
+│       ├── fib2
+│       │   └── 1
+│       └── fib3
+│           ├── fib1
+│           │   └── 1
+│           └── fib2
+│               └── 1
+└── fib6
+    ├── fib4
+    │   ├── fib2
+    │   │   └── 1
+    │   └── fib3
+    │       ├── fib1
+    │       │   └── 1
+    │       └── fib2
+    │           └── 1
+    └── fib5
+        ├── fib3
+        │   ├── fib1
+        │   │   └── 1
+        │   └── fib2
+        │       └── 1
+        └── fib4
+            ├── fib2
+            │   └── 1
+            └── fib3
+                ├── fib1
+                │   └── 1
+                └── fib2
+                    └── 1
+                    
+Now essentially what you'll do is take all the final values of 1 and add them all up.
+If we manually do fibonacci, we'll see that we get the sequence: 1 1 2 3 5 8 13. 13 is the 7th number.
+If we add up all the ones, we'll see we have 13 ones, which is also the 7th number. 
+*/
+```
 
 
 
