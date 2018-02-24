@@ -25,4 +25,5 @@
   * [Methods, Arguments, Return values, and Recursion](chapter1/methods-arguments-return-values-and-recursion.md)
     * [Methods](chapter1/methods-arguments-return-values-and-recursion/methods.md)
     * [Recursion](chapter1/methods-arguments-return-values-and-recursion/recursion.md)
+  * [System.out.format](chapter1/systemoutformat.md)
 
