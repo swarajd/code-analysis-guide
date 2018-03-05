@@ -43,7 +43,7 @@ If you want to find the negative representation of an integer, the method is as 
 
 > "two's complement"
 
-The description also mentioned "two's complement," and that baiscally indicates another method of calculating a negative number. If lets say we have 109, which has the binary representation of `01101101`, then in order to get the negative represntation, we can flip all the bits, to get `10010010`, and then add 1 to this number, making the final representation `10010011`.
+The description also mentioned "two's complement," and that basically indicates another method of calculating a negative number. If lets say we have 109, which has the binary representation of `01101101`, then in order to get the negative represntation, we can flip all the bits, to get `10010010`, and then add 1 to this number, making the final representation `10010011`.
 
 ### Exercises:
 

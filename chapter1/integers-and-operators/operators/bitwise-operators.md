@@ -1,6 +1,6 @@
 # Bitwise Operators
 
-Bitwise operators are probably the trickiest operators to understand, as they require a deep understanding of bits. Thankfully, these operators can only take up 10% of the test, so you don't have to worry too much about this, but it's good to know this concept in general.
+Bitwise operators are probably the trickiest operators to understand, as they require a deep understanding of bits. Thankfully, these operators can only take up 10% of the test.
 
 There are 7 bitwise operators in total: `~, &, |, ^, <<, >>, and >>>`. Their names are: negation, and, or, xor, left shift, arithmetic right shift, and logical right shift. If you don't have a solid foundation in bits, I suggest revisiting the integers section and brushing up on how integers are represented in binary, or doing a bit of external research on that concept.
 
