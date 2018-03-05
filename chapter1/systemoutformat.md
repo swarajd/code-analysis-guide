@@ -2,6 +2,8 @@
 
 I'll write out a quick guide as to how `System.out.format` works so that you guys can understand it.
 
+Pay careful attention to section f, subsection i. Many students only learn `System.out.print`or `System.out.println` and neglect to learn `System.out.printf` or `System.out.format` . I highly recommend learning them both.
+
 The specifiers the test writers are limited to are:
 
 ```
