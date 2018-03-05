@@ -1,8 +1,8 @@
 # System.out.format
 
-`System.out.format` is really just a small part of the java spec, and it shouldn't really be something you should be worried about. I'll write out a quick guide as to how `System.out.format` works so that you guys can understand it.
+I'll write out a quick guide as to how `System.out.format` works so that you guys can understand it.
 
-The specifiers we the test writers are limited to are:
+The specifiers the test writers are limited to are:
 
 ```
 %% = a percent sign
