@@ -6,7 +6,7 @@ In Java, all operators have some level of priority, which the program must obey 
 
 ![](/assets/operator_precedence.png)
 
-In order to read this table, consider the top of the table, level 16, as operators that are considered first before anything. If you ever get confused, notice how there are parentheses in that level, which is the first letter in PEMDAS, and that should help you orient yourself. I know that you don't have to all these operators, but for the ones you are required to know, note their place in this table.
+In order to read this table, consider the top of the table, level 16, as operators that are considered first before anything. If you ever get confused, notice how there are parentheses in that level, which is the first letter in PEMDAS, and that should help you orient yourself. I know that you don't have to know all these operators, but for the ones you are required to know, note their place in this table.
 
 #### Exercises
 

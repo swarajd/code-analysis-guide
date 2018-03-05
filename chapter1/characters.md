@@ -11,9 +11,9 @@ char someOtherChar = '~';
 
 According to the rules, we will only be dealing with the characters from `' '` to `'~'` \(space to tilde\). In order to understand what this really means, lets look at an ascii table:
 
-![](/assets/asciitable.png)\(source: [https://commons.wikimedia.org/wiki/File:ASCII-Table-wide.svg\](https://commons.wikimedia.org/wiki/File:ASCII-Table-wide.svg%29\)
+![](/assets/asciitable.png)\(source: [https://commons.wikimedia.org/wiki/File:ASCII-Table-wide.svg\](https://commons.wikimedia.org/wiki/File:ASCII-Table-wide.svg%29\)\)
 
-From this table, we can see that we only deal with the characters from `32` to `126` . You might have also noticed that characters correspond to decimal and hexadecimal values. That means that in java you can do something like this:
+sFrom this table, we can see that we only deal with the characters from `32` to `126` . You might have also noticed that characters correspond to decimal and hexadecimal values. That means that in java you can do something like this:
 
 ```
 char a = (char)32;         // the ' ' character (space)
@@ -69,8 +69,6 @@ The way this arithmetic works is `char` s are basically 8 bit integers, and it d
 4. What is `(char)('z' - '\"')` ?
 5. What is `(char)('d' - '1')` ?
 6. What is `(char)('!' + '!' + '\"')` ?
-
-
 
 
 
