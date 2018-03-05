@@ -1,6 +1,6 @@
 # Binary Operators
 
-These should also be pretty easy to get, but there are some subtleties, which I will cover in this section. The five operators that will be used for this event are the following: `+, -, *, /, and %`.
+These should also be pretty easy to get, but there are some subtleties, which I will cover in this section. The five operators that will be used are the following: `+, -, *, /, and %`.
 
 ### Addition
 
@@ -20,7 +20,7 @@ int b = 1;
 int c = a + b; // -2147483648
 ```
 
-That doesn't seem right, it returned a negative number! Well, if you remember from the previous section, $$2147483647$$ is the largest value the integer value can take, and it's binary representation is the following: `01111111111111111111111111111111`. If you add 1 to that, it's binary representation will be `10000000000000000000000000000000`. This is equal to the smallest integer value, or $$-2147483648$$.
+That doesn't seem right, it returned a negative number! Well, if you remember from the previous section, $$2147483647$$ is the largest positive value the integer value can take, and it's binary representation is the following: `01111111111111111111111111111111`. If you add 1 to that, it's binary representation will be `10000000000000000000000000000000`. This is equal to the smallest integer value, or $$-2147483648$$$$-2147483648$$.
 
 ### Subtraction
 
@@ -32,7 +32,7 @@ int b = 9;
 int c = a - b; // 47
 ```
 
-This is normal enough, but lets sort of refer back to the edge case in the addition section.
+This is normal enough, but let's refer back to the edge case in the addition section.
 
 ```
 // c = -2147483648
@@ -44,7 +44,7 @@ This is even weirder, it returned a positive number! This is similar to above in
 
 ### Multiplication
 
-Multiplication holds the same edge cases as addition, but it's multiplication, so for this section you don't need to worry too much about edge cases as they've been covered already.
+Multiplication holds the same edge cases as addition.
 
 ### Division
 
@@ -70,7 +70,7 @@ int f = -8 / -2  //  4
 
 ### Modulus
 
-The modulus operator looks as such: `%`. The modulus operator gives you the remainder between two numbers if you divide them. Lets look at a few examples:
+The modulus operator looks like this: `%`. The modulus operator gives you the remainder between two numbers if you divide them. Lets look at a few examples:
 
 ```
 int a = 1 % 3;  // 1

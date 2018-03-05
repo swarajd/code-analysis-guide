@@ -1,6 +1,6 @@
 # Unary Operators
 
-There is only one unary operator we have to worry about, and that is `-` . This operator is really self explanatory, and basically turns an integer negative. I won't bother with exercises for this one as it should be very obvious what this operator does.
+There is only one unary operator, and that is `-` . This operator turns an integer into it's negative \(or positive\) counterpart. 
 
 One edge case I will go over, however, is the use of this operator on the smallest integer. As you should know from the previous section, the smallest representable integer in 32 bits is $$ -2147483648$$. So what happens if we do the following:
 
