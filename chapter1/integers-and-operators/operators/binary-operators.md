@@ -20,7 +20,7 @@ int b = 1;
 int c = a + b; // -2147483648
 ```
 
-That doesn't seem right, it returned a negative number! Well, if you remember from the previous section, $$2147483647$$ is the largest positive value the integer value can take, and it's binary representation is the following: `01111111111111111111111111111111`. If you add 1 to that, it's binary representation will be `10000000000000000000000000000000`. This is equal to the smallest integer value, or $$-2147483648$$$$-2147483648$$.
+That doesn't seem right, it returned a negative number! Well, if you remember from the previous section, $$2147483647$$ is the largest positive value the integer value can take, and it's binary representation is the following: `01111111111111111111111111111111`. If you add 1 to that, it's binary representation will be `10000000000000000000000000000000`. This is equal to the smallest integer value, or $$-2147483648$$.
 
 ### Subtraction
 
